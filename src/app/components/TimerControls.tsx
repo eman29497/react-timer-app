@@ -2,7 +2,7 @@ import React from 'react';
 
 const TimerControls = ({ onStart, onStop, onReset }: any) => {
   return (
-    <div className="flex flex-row justify-center gap-2 mt-6">
+    <div className="flex flex-row justify-center gap-1 mt-6">
       <button 
         onClick={onStart} 
         className="px-8 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg shadow-md transition duration-300"
